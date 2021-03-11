@@ -1,0 +1,13 @@
+title = c("Farm", "Month", "Year", "Sex", "Lengthclass", "LengthCT", "Ecervi", "Tb")
+r1 = c("MO", 11, 00, 1, 1, 75, 0, 0)
+r2 = c("MO", 07, 00, 2, 1, 85, 0, 0)
+r3 = c("MO", 07, 01, 2, 1, 91.6, 0, 1)
+r4 = c("MO", NA, NA, 2, 1, 95, NA, NA)
+r5 = c("LN", 09, 03, 1, 1, NA, 0, 0)
+r6 = c("SE", 09, 03, 2, 1, 105.5, 0, 0)
+r7 = c("QM", 11, 02, 2, 1, 106, 0, 0)
+dulieu = data.frame(title,r1,r2,r3,r4,r5,r6,r7)
+dulieu
+mean(dulieu$LengthCT, na.rm = TRUE)
+LengthCT <- c(75,85,91.6,95,NA,105,5,106)
+mean(LengthCT, na.rm = TRUE)
